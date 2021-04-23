@@ -8,6 +8,14 @@ var rightreading = [];
 var leftavg = [];
 var rightavg = [];
 
+function distVec(v1, v2) {
+  var dx = v1[0] - v2[0];
+  var dy = v1[1] - v2[1];
+  var dz = v1[2] - v2[2];
+
+  return Math.sqrt(dx * dx + dy * dy + dz * dz) * 10;
+}
+
 // Function to update text input when slider is changed
 function updateTextInput(val) {
   document.getElementById('textInput').value = val;
