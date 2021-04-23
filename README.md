@@ -1,6 +1,6 @@
 <p align="center">
  <a href = "https://www.youtube.com/watch?v=c8OEpGYkCFs">Build an AI Sleep Detector in Less than 60 minutes</a>
- <img src="blink-detector.jpg" width="500"> 
+ <img src="blink-detector.JPG" width="500"> 
 </p>
 
 
