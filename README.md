@@ -1,11 +1,30 @@
-# Face Tracker
-
-This repository contains the code for demonstrating different use cases which leverage facial landmark keypoints. The facial landmark model is a Tf-Js implementation of the [paper](https://arxiv.org/pdf/1907.06724.pdf).
-
-## Drowsy Alarm
-
-Using the keypoint [map](./mesh_map.jpg) we can calculate the distance between keypoints of facial part such as eyelids (upper and lower) and lips (upper and lower) and put a threshold on this distance to identify when the person is drowsing off. A moving average smoothing can reduce noise.
+<p align="center">
+ <a href = "https://www.youtube.com/watch?v=c8OEpGYkCFs">Build an AI Sleep Detector in Less than 60 minutes</a>
+ <img src="./blink-detector.jpg" width="500"> 
+</p>
 
 
+# Blink Detector
 
+This repository hosts code to run a blink detector/alarm in your browser. The code uses a pretrained facial keypoint detector model, hosted on the [tf-js models](https://github.com/tensorflow/tfjs-models) repository. 
 
+The code has been taken from the [facial landmark detector demo](https://github.com/tensorflow/tfjs-models/tree/master/face-landmarks-detection/demo) (FLD) page of the repository and has been refactored to work in the browser using Tensorflow-JS 2.4.0. 
+
+## How Does It Work?
+
+After the FLD model predicts the keypoint location. Eyebrow keypoints (refer to [mesh map](./mesh_map.jpg)) are used to calculate the distance between the upper and lower eyebrows.
+
+The distance is plotted on a line chart for easy visualization. Whenever the distance for both left and right eye falls below a threshold, a beep function is called.
+
+## What can YOU Do?
+
+The following are some low hanging fruits for you to try:
+
+- Add code to make the blink detection robust to camera angle changes.
+- Add code for automatic threshold calculation.
+
+# Feedback
+
+Please create an issue on this repository or write to us on pretrainedmachines@gmail.com on any issue/thoughts on this repository. 
+
+We are waiting to hear from you.
