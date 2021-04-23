@@ -26,4 +26,6 @@ The following are some low hanging fruits for you to try:
 
 Please create an issue on this repository or write to us on pretrainedmachines@gmail.com on any issue/thoughts on this repository. 
 
+Follow us on **@pretrainedmchns** on [Twitter](https://twitter.com/pretrainedmchns) and [Github](https://github.com/pretrainedmchns).
+
 We are waiting to hear from you.
