@@ -1,10 +1,9 @@
 <p align="center">
- <a href = "https://www.youtube.com/watch?v=c8OEpGYkCFs">Build an AI Sleep Detector in Less than 60 minutes</a>
  <img src="blink-detector.JPG" width="500"> 
 </p>
 
 
-# Blink Detector
+# [Build an AI Sleep Detector in Less than 60 minutes](https://www.youtube.com/watch?v=c8OEpGYkCFs)
 
 This repository hosts code to run a blink detector/alarm in your browser. The code uses a pretrained facial keypoint detector model, hosted on the [tf-js models](https://github.com/tensorflow/tfjs-models) repository. 
 
