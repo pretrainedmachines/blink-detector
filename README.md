@@ -11,7 +11,7 @@ The code has been taken from the [facial landmark detector demo](https://github.
 
 ## How Does It Work?
 
-After the FLD model predicts the keypoint location. Eyebrow keypoints (refer to [mesh map](./mesh_map.jpg)) are used to calculate the distance between the upper and lower eyebrows.
+After the FLD model predicts the keypoint location. Eyebrow keypoints (refer to [mesh map](./mesh_map.jpg)) are used to calculate the distance between the left and right eyebrows.
 
 The distance is plotted on a line chart for easy visualization. Whenever the distance for both left and right eye falls below a threshold, a beep function is called.
 
